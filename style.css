@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+/* Header Section Start */
+header{
+  padding: 30px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  color: #0B0223;
+  font-size: 45px;
+  font-weight: 700;
+}
+.logo img{
+  width: 70px;
+  height: 40px;
+  padding: 0 10px;
+}
+span{
+  color: #FF42A5;
+}
+.navbar ul{
+  display: flex;
+}
+.navbar ul li{
+  margin-right: 25px;
+}
+.navbar ul li a{
+  color: #3C354F;
+  font-size: 18px;
+  font-weight: 500;
+}
+.follow-us{
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+  padding: 10px;
+}
+.bxl-youtube{
+  font-size: 22px;
+  color: #F61C0D;;
+}
+.bxl-tiktok{
+  color: #000;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+section{
+  padding: 0 180px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-text h2{
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.banner-text h1{
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent; 
+ margin-bottom: 20px; 
+}
+.banner-text h3{
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-bottom: 15px;
+}
+.button{
+  display: flex;
+  gap: 20px;
+}
+.sign-in-btn{
+  padding: 16px 40px;
+  border: none;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.rogue-btn{
+  padding: 16px 40px;
+  border: none;
+  border-radius: 48px;
+  background: #4EC5F7;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.banner-img img{
+  width: 550px;
+}
+/* Banner Section End */
+
+/* We-are-gamer-Section Start */
+.we-are-gamer{
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.we-are-gamer-text{
+  text-align: right;
+}
+.we-are-gamer-text h2{
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.we-are-gamer-text p{
+  color: #534C64;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px; 
+  margin-bottom: 10px;
+}
+.we-are-gamer-text button{
+  display: inline-flex;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;;
+  text-transform: uppercase;
+}
+.we-are-gamer-text h4{
+  color: #534C64;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px; 
+}
+.we-are-gamer-img img{
+  width: 650px;
+  height: 470px;
+}
+
+
+
+
+
+/* Media Quary */
+@media screen and (max-width:576px) {
+  header{
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar ul{
+    flex-direction: column;
+  }
+  .navbar ul li{
+    padding-top: 10px;
+  }
+  section{
+    padding: 20px;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .banner-text{
+    order: 2;
+    margin-top: 40px;
+  }
+  .banner-img img{
+    max-width: 100%;
+    width: 550px;
+  }
+  .we-are-gamer{
+    padding: 20px;
+    flex-direction: column;
+  }
+  .we-are-gamer-text{
+    text-align: center ;
+  }
+  .we-are-gamer-img img{
+    max-width: 100%;
+    width: 650px;
+  }
+}
