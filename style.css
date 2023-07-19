@@ -357,9 +357,6 @@ section{
   justify-content: space-evenly;
   margin-top: 30px;
 }
-#iteam a{
-  margin-right: 30px;
-}
 .iteam a:hover {
   border: 2px solid #F61C0D;
   border-radius: 30px;
@@ -465,22 +462,17 @@ section{
   }
   .carresrs{
     flex-direction: column;
+    padding: 20px;
+    align-items: center;
   }
   .carresrs-text p{
     width: 399.444px;
     height: 286.678px;
     text-align: left;
   }
-  .carresrs-text .list-1 {
-    margin: 0px 20px;
-  }
-  .carresrs-text .list-2{
-    margin-right: 20px;
-  }
-  .carresrs-img{
+  .carresrs-img img{
     max-width: 100%;
     width: 500px;
-    align-items: center;
   }
   .game-iteam{
     padding: 0px 20px;
@@ -492,8 +484,7 @@ section{
     padding-top: 20px;
   }
   #iteam{
-    margin: 5px 20px;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   
 }
