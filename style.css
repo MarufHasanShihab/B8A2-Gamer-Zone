@@ -8,7 +8,7 @@
 }
 /* Header Section Start */
 header{
-  padding: 30px 180px;
+  padding: 30px 160px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +53,7 @@ span{
 
 /* Banner Section Start */
 section{
-  padding: 0 180px;
+  padding: 0 160px;
 }
 .banner{
   display: flex;
@@ -250,17 +250,27 @@ section{
 
 /* Play Game Section Start */
 .play-games{
+  height: 600px;
   display: flex;
   justify-content: space-between;
-  gap: 10%;
+  gap: 80px;
 }
 .play-games-img img{
-  width: 500px;
+  width: 450px;
+  height: 500px;
 }
 .img2 img{
-  width: 150px;
+  width: 215px;
+  height: 318px;
+  position: relative;
+  left: 280px;
+  bottom: 180px;
+}
+.play-games-text{
+  padding-top: 80px ;
 }
 .play-games-text h2{
+  width: 426px;
   font-size: 48px;
   font-weight: 700;
   line-height: 60px; 
@@ -336,7 +346,7 @@ section{
   }
   .play-instantly-img img{
     max-width: 100%;
-    width: 350px;
+    width: 250px;
   }
   .play-instantly-text{
     text-align: center;
@@ -347,6 +357,31 @@ section{
   .img-2 img{
     width: 180px;
     right: 50px;
-    bottom: 150px;
+    bottom: 100px;
+  }
+  .play-games{
+    flex-direction: column;
+  }
+  .play-games{
+    padding: 20px;
+    align-items: center;
+  }
+  .play-games-img{
+    order: 2;
+  }
+  .play-games-img img{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+  }
+  .img2 img{
+    left: 180px;
+    bottom: 100px;
+    width: 180px;
+    height: 200px;
+
+  }
+  .play-games-text{
+    text-align: center;
   }
 }
