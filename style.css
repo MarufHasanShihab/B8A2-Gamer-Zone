@@ -36,11 +36,11 @@ span{
   color: #3C354F;
   font-size: 18px;
   font-weight: 500;
+  padding: 10px;
 }
 .follow-us{
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.10);
-  padding: 10px;
 }
 .bxl-youtube{
   font-size: 22px;
@@ -212,15 +212,17 @@ section{
   line-height: 30px; 
 }
 /* On Line Game Section End */
+
+/* Play Instantly Section Start */
 .play-instantly{
   padding-top: 80px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 150px;
 }
 .play-instantly-text{
   text-align: right;
+  padding-top: 100px;
 }
 .play-instantly-text h2{
   font-size: 40px;
@@ -232,6 +234,7 @@ section{
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  width: 350px;
 }
 .play-instantly-img img{
   width: 500px;
@@ -241,11 +244,42 @@ section{
   position: relative;
   bottom: 220px;
   right: 90px;
+  border-radius: 8px;
+}
+/* Play Instantly Section End */
+
+/* Play Game Section Start */
+.play-games{
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+}
+.play-games-img img{
+  width: 500px;
+}
+.img2 img{
+  width: 150px;
+}
+.play-games-text h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; 
+}
+.play-games-text p{
+  width: 480px;
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; 
 }
 
 
 
+
+
+
 /* Media Quary */
+/* Mobile Device */
 @media screen and (max-width:576px) {
   header{
     padding: 20px;
@@ -297,14 +331,18 @@ section{
   .play-instantly{
     padding: 20px;
     flex-direction: column;
+    align-items: center;
     gap: 50px;
   }
   .play-instantly-img img{
     max-width: 100%;
-    width: 320px;
+    width: 350px;
   }
   .play-instantly-text{
     text-align: center;
+  }
+  .play-instantly-text p{
+    margin-left: 40px;
   }
   .img-2 img{
     width: 180px;
