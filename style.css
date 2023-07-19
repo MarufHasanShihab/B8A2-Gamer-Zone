@@ -155,6 +155,9 @@ section{
   font-weight: 600;;
   text-transform: uppercase;
 }
+.we-are-gamer-text button:hover{
+  cursor: pointer;
+}
 .we-are-gamer-text h4{
   color: #534C64;
   font-size: 15px;
@@ -212,6 +215,9 @@ section{
   font-weight: 500;
   line-height: 30px; 
 }
+.box img:hover{
+  cursor: pointer;
+}
 /* On Line Game Section End */
 
 /* Play Instantly Section Start */
@@ -235,7 +241,6 @@ section{
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  width: 350px;
 }
 .play-instantly-img img{
   width: 500px;
@@ -294,7 +299,7 @@ section{
 }
 .carresrs-img img{
   width:550px;
-  height: 550px;
+  height: 620px;
 }
 .carresrs-text{
   margin: 50px 0px;
