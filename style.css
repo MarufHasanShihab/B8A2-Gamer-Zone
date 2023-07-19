@@ -8,7 +8,7 @@
 }
 /* Header Section Start */
 header{
-  padding: 30px 160px;
+  padding: 30px 140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +53,7 @@ span{
 
 /* Banner Section Start */
 section{
-  padding: 0 160px;
+  padding: 0 140px;
 }
 .banner{
   display: flex;
@@ -329,7 +329,43 @@ section{
   font-weight: 600;
   line-height: 40px; 
 }
+/* Carrers Section End */
 
+/* Game Iteam Section Start */
+.game-iteam{
+  margin-top: 40px;
+}
+.iteam{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+.iteam a{
+  display: flex;
+  align-items: center;
+  transition: all .30s ease;
+}
+.iteam a img{
+  width: 40px;
+}
+.iteam a h5{
+  color: #0B0223;
+  font-size: 16px;
+  margin-left: 6px;
+}
+#iteam{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+#iteam a{
+  margin-right: 30px;
+}
+.iteam a:hover {
+  border: 2px solid #F61C0D;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+/* Game iteam Section End */
 
 
 
@@ -395,6 +431,7 @@ section{
   }
   .play-instantly-text{
     text-align: center;
+    margin: 0px 20px;
   }
   .play-instantly-text p{
     margin-left: 40px;
@@ -432,9 +469,31 @@ section{
   .carresrs-text p{
     width: 399.444px;
     height: 286.678px;
-    text-align: center;
+    text-align: left;
   }
-  .carresrs-text .list-1{
+  .carresrs-text .list-1 {
+    margin: 0px 20px;
+  }
+  .carresrs-text .list-2{
+    margin-right: 20px;
+  }
+  .carresrs-img{
+    max-width: 100%;
+    width: 500px;
+    align-items: center;
+  }
+  .game-iteam{
+    padding: 0px 20px;
+  }
+  .iteam{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .iteam a{
+    padding-top: 20px;
+  }
+  #iteam{
+    margin: 5px 20px;
+    flex-direction: column;
   }
   
 }
