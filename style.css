@@ -41,8 +41,9 @@ span{
 .follow-us{
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.10);
+  margin-bottom: 30px;
 }
-.bxl-youtube{
+.youtube{
   font-size: 22px;
   color: #F61C0D;;
 }
@@ -285,6 +286,7 @@ section{
 }
 /* Play Games Section End */
 
+/* Carresrs Section Start */
 .carresrs{
   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
   display: flex;
@@ -364,6 +366,65 @@ section{
 }
 /* Game iteam Section End */
 
+/* Footer Section Start */
+.footer{
+  margin-top: 150px;
+  height: 400px;
+  background: #0B0223;
+  color: #fff;
+  text-align: center;
+}
+.footer a{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: #FFF;
+}
+footer{
+  padding-top:50px ;
+}
+nav{
+  margin-top: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  padding: 0px 20px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.social-icon{
+  margin-top: 40px;
+}
+.social-icon i{
+  font-size: 30px;
+  padding: 0 10px;
+}
+.nav{
+  margin-top: 40px;
+}
+.nav ul{
+  display: flex;
+  justify-content: center;
+}
+.nav ul li{
+  padding: 0px 10px;
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  }
+  footer p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
 
 
 /* Media Quary */
@@ -486,5 +547,19 @@ section{
   #iteam{
     flex-wrap: wrap;
   }
-  
+  .footer{
+    height: 500px;
+  }
+  nav ul li{
+    padding-top: 10px;
+  }
+  nav ul{
+    flex-wrap: wrap;
+  }
+  .nav ul{
+    flex-wrap: wrap;
+  }
+  .nav ul li{
+    padding-top: 20px;
+  }
 }
