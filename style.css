@@ -91,7 +91,7 @@ section{
   text-transform: lowercase;
   margin-left: 12px;
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
   padding-top: 24px;
 }
 .banner h3 img{
@@ -184,12 +184,10 @@ section{
 }
 .unleash{
   color: #534C64;
-text-align: right;
-font-family: Work Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 45px; /* 187.5% */
+  text-align: right;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px; 
 }
 .we-are-gamer-img img{
   width: 500px;
@@ -258,11 +256,13 @@ line-height: 45px; /* 187.5% */
   padding-top: 100px;
 }
 .play-instantly-text h2{
-  font-size: 40px;
+  width: 353px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 60px; 
 }
 .play-instantly-text p{
+  width: 353px;
   color: #534C64;
   font-size: 18px;
   font-weight: 400;
@@ -298,8 +298,7 @@ line-height: 45px; /* 187.5% */
   bottom: 160px;
 }
 .play-games-text{
-  padding-top: 80px ;
-  text-align: left;
+  padding-top: 80px;
 }
 .play-games-text h2{
   width: 426px;
@@ -308,7 +307,8 @@ line-height: 45px; /* 187.5% */
   line-height: 60px; 
 }
 .play-games-text p{
-  width: 450px;
+  margin-top: 24px;
+  width: 483px;
   color: #534C64;
   font-size: 18px;
   font-weight: 400;
@@ -323,7 +323,7 @@ line-height: 45px; /* 187.5% */
   justify-content: space-between;
 }
 .carresrs-img img{
-  width: 600px;
+  width: 708px;
   height: 720px;
 }
 .carresrs-text{
@@ -385,6 +385,8 @@ line-height: 45px; /* 187.5% */
   grid-template-columns: repeat(5,1fr);
 }
 .iteam a{
+  width: 200px;
+  height: 80px;
   display: flex;
   align-items: center;
   transition: all .30s ease;
