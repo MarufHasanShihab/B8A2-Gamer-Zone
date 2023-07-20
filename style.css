@@ -14,17 +14,9 @@ header{
   align-items: center;
 }
 .logo{
-  color: #0B0223;
-  font-size: 45px;
-  font-weight: 700;
-}
-.logo img{
-  width: 70px;
-  height: 40px;
-  padding: 0 10px;
-}
-span{
-  color: #FF42A5;
+  width: 253.041px;
+height: 53px;
+flex-shrink: 0;
 }
 .navbar ul{
   display: flex;
@@ -66,7 +58,6 @@ section{
   font-size: 48px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 .banner-text h1{
   text-align: center;
@@ -77,16 +68,21 @@ section{
   background-clip: text;
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent; 
- margin-bottom: 20px; 
 }
-.banner-text h3{
+.banner-list{
   color: #534C64;
-  font-size: 20px;
+  text-align: center;
+  font-size: 18px;
   font-weight: 500;
   text-transform: lowercase;
-  margin-bottom: 15px;
+  margin-left: 12px;
+}
+.banner h3 img{
+  width: 24px;
+  height: 24px;
 }
 .button{
+  padding-top: 40px;
   display: flex;
   gap: 20px;
 }
