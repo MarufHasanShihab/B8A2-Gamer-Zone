@@ -299,7 +299,6 @@ section{
 }
 .play-games-text{
   padding-top: 80px;
-  text-align: center;
 }
 .play-games-text h2{
   width: 426px;
@@ -566,6 +565,9 @@ nav ul li {
     max-width: 100%;
     width: 300px;
     height: 300px;
+  }
+  .play-games-text{
+    text-align: center;
   }
   .img2 img{
     left: 180px;
