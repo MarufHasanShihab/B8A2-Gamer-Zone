@@ -445,6 +445,7 @@ nav ul li {
 }
 .social-icon{
   margin-top: 40px;
+  cursor: pointer;
 }
 .social-icon i{
   font-size: 30px;
